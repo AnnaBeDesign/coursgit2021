@@ -1,0 +1,32 @@
+#resolution{
+    background-color: blue;
+}
+
+
+
+#resolution:after{
+    content: "XS < 576";
+}
+
+
+
+@media (min-width: 576px) {
+   #resolution{ background-color :yellow;
+
+   }
+}
+
+
+@media (min-width: 776px) {
+    #resolution{ background-color :blue;
+ 
+    }
+ }
+
+
+ @media (min-width: 992px) {
+    #resolution{ background-color :purple;
+ 
+    }
+ }
+  
